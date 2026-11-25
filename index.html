@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You are the best</title>
+<style>
+  html, body { height: 100%; margin: 0; background: #000; }
+  body { display: flex; align-items: center; justify-content: center; }
+  h1 {
+    margin: 0; text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: clamp(2.2rem, 9vw, 7rem);
+    letter-spacing: 3px;
+    color: #ff4fa3;
+    animation: glow 1.8s ease-in-out infinite alternate;
+  }
+  @keyframes glow {
+    from { text-shadow: 0 0 5px #ff4fa3, 0 0 12px #ff4fa3, 0 0 24px #ff1493; }
+    to   { text-shadow: 0 0 18px #ff4fa3, 0 0 40px #ff1493, 0 0 80px #ff1493, 0 0 120px #ff1493; }
+  }
+</style>
+</head>
+<body>
+  <h1>You are the best</h1>
+</body>
+</html>
